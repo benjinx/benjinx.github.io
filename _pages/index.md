@@ -5,7 +5,7 @@
 layout: default
 ---
 
-# Benjamin Campbell
+# Benjinx's Blog
 
 Hello!
 
