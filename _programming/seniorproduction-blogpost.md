@@ -2,7 +2,7 @@
 layout: post
 title: Senior Production Blog Posts
 excerpt: Senior Production Blog Posts
-date: 2017-05-13 22:00:00 -0400
+date: -u "+%Y-%m-%d %H:%M:%S +0000"
 tags: c# unity
 ---
 
@@ -16,7 +16,7 @@ This week was mostly polishing and flushing out all of our game play from start 
 
 ---
 
-### Senior Production: Blog Nine – The End is Nigh
+### Senior Production: Blog Nine – The End is Neigh
 
 The end is finally in sight! But that also means the work load is going to be a nightmare now… Beta was due this week on Wednesday so we had to get as much in as possible as soon as we could. I received more audio from our Audio Designer and was able to pull a crazy long all night developer jam session on Tuesday night with the rest of the Engineering team.
 

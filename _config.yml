@@ -1,9 +1,12 @@
-title: Benjinx
-description: |
-  <a href="/blog.html">Blog</a>
-
+title: Benjinx's Development Blog
+github_username: Benjinx264
 twitter_username: benjinx264
 github_username:  benjinx
+
+author: Benjamin Campbell
+
+description: |
+  <a href="/blog.html">Blog</a>
 
 # Build settings
 markdown: kramdown
@@ -11,3 +14,4 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
+include: ['_pages', '_game-engine', '_programming']
