@@ -22,7 +22,7 @@ Other technical skills: C++, C#, OpenGL/GLSL, Git, CMake, Unity3D, Unreal Engine
 ## Temporality
 [More Info](https://github.com/benjinx/Temporality)
 
-![Temporality Image](images/Temporality.png)
+![Temporality Image](assets/images/Temporality.png)
 
 Everyone who enjoys engine programming should try their hand at creating a game engine from scratch and using it to create a game. This is the beginning of mine, Temporality. A C++ Game Engine, using OpenGL/GLSL designed to easily create AI, Gameplay, Graphics, Physics, and Networking demos.
 
@@ -31,6 +31,6 @@ Everyone who enjoys engine programming should try their hand at creating a game 
 ## Elegy, Inc.
 [More Info](/elegy.html)
 
-![Elegy, Inc Image](images/Elegy.gif)
+![Elegy, Inc Image](assets/images/Elegy.gif)
 
 If every tattoo tells a story, then the body is a chronicle of an entire life. In Elegy, Inc. you play as a tattoo and the body is the environment in which you must explore and puzzle-solve.
