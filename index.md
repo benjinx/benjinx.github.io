@@ -13,18 +13,22 @@ I'm Benji & Welcome to my portfolio! I originally started as a kid who loved to 
 
 I tend to enjoy Graphics Programming and Game Architecture. I've had the opportunity to take multiple classes on each of these topics and have fallen in love with them. I am now continuing to learn more and more about them each day.
 
-Other technical skills: C++, C#, OpenGL/GLSL, GIT, CMake, Unity3D, Unreal Engine 4 and Visual Studios.
+Other technical skills: C++, C#, OpenGL/GLSL, Git, CMake, Unity3D, Unreal Engine 4 and Visual Studios.
 
-## Projects
+# Projects
 
-### Temporality
+## Temporality
+[More Info](https://github.com/benjinx/Temporality)
+
 ![Temporality Image](images/Temporality.png)
 
 Everyone who enjoys engine programming should try their hand at creating a game engine from scratch and using it to create a game. This is the beginning of mine, Temporality. A C++ Game Engine, using OpenGL/GLSL designed to easily create AI, Gameplay, Graphics, Physics, and Networking demos.
 
 ---
 
-### Elegy, Inc.
+## Elegy, Inc.
+[More Info](/elegy.html)
+
 ![Elegy, Inc Image](images/Elegy.gif)
 
 If every tattoo tells a story, then the body is a chronicle of an entire life. In Elegy, Inc. you play as a tattoo and the body is the environment in which you must explore and puzzle-solve.

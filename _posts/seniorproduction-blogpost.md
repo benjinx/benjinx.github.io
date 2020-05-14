@@ -1,3 +1,11 @@
+---
+layout: post
+title: Senior Production Blog Posts
+excerpt: Senior Production Blog Posts
+date: 2020-05-13 22:00:00 -0400
+tags: c# unity
+---
+
 ## Senior Production: Blog Ten – Dawn of the Final Day
 
 When I think back to high school and the last few years at college, it always ceases to amaze me at how quickly time seems to pass. This last school year has absolutely flown by at the speed of light but it’s been one of the most intensive years I’ve ever had to struggle through and here we are at the end of my final semester at school and at the end of this amazing project I’ve ever had the opportunity to work on.

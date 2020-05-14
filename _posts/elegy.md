@@ -1,3 +1,11 @@
+---
+layout: post
+title: Elegy, Inc
+excerpt: Elegy, Inc
+date: 2020-05-13 22:00:00 -0400
+tags: c# unity
+---
+
 # Elegy, Inc.
 
 Elegy, Inc was a project I had an opportunity to work on. Below I’ve included the dev logs created while working on the project as well as a download of the game itself. Enjoy!
