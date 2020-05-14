@@ -29,7 +29,7 @@ Everyone who enjoys engine programming should try their hand at creating a game 
 ---
 
 ## Elegy, Inc.
-[More Info](/elegy.html)
+[More Info](programming/elegy.html)
 
 ![Elegy, Inc Image](assets/images/Elegy.gif)
 
