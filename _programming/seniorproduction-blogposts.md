@@ -57,7 +57,7 @@ Other than both agreeing on having an Audio Manager to make it more simple for m
 
 Ahh, The wonders of spring break! Everyone loves turning into a vegetable and becoming one with their couch watching tv and playing games. Well at least my roommate and I do, that’s for sure.
 
-![Elegy1 Image](assets/images/theBlob.png)
+![Elegy1 Image](/assets/images/theBlob.png)
 
 Basically this was us… Anyways… now that break is over and the teams back on track working it’s time to kick it into high gear and get as much done as possible since we only have 5 week remaining.
 
@@ -95,7 +95,7 @@ UV Space, it’s a wonderful thing. I won’t go into too much detail but I’ll
 
 Now that we have a rough understanding of UV space, we ran into a problem in creating our triggerable/trigger/interactive. We needed to be able to tell if our player was within range of a tattoo be enable any of the triggerable/trigger/interactives. When we check the distance it wasn’t able to check correctly via the model since all of our gameplay is technically happening in 2D space. So we had to rig up a function that would give us world space tattoo to tattoo. Below is an example of one of the UV maps.
 
-![Elegy1 Image](assets/images/elegy1.png)
+![Elegy1 Image](/assets/images/elegy1.png)
 
 ---
 

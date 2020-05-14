@@ -180,7 +180,7 @@ Implementation of a timer is pretty simple, I made a very basic UI panel and tex
 ### Heads Up!
 Many games such as [Borderlands](https://lh3.googleusercontent.com/proxy/mHK7AyiRg9zANQfy7gDG4JP5lqmezagMKhfbjc9tZXDVmeXGBqZit2SDiRoMhZu2iA7TUFmokHSGayVfqvaByFct06o0kL82KQYPpCE_wu6bAd2jI6EVsLU2bDPIyM_a_bY647TVM5NUlKu1uXKe-muWpafaL0iAqkZL2OjJ3sI6-lw) and [The Division](http://tech.firstpost.com/wp-content/uploads/2016/03/Encounters-can-get-repetitive.jpg) use an in-game UI to make the game more visually appealing. Our group discussed this idea and we wanted to try and implement at least one UI element on the character. It was actually quite easy to get this type of UI implemented! Unity has an option to change the UI to world space thus we can move the object around the world space and position it as desired, such as this X button on our cubes back below.
 
-![ingameui](assets/images/ingameui.png)
+![ingameui](/assets/images/ingameui.png)
 
 ---
 
@@ -193,15 +193,15 @@ Starting off on this Moving Environment I knew it was going to have to be networ
 
 I started by just setting up some variables to grab rotation amounts, and a start/end position for the desired game object.
 
-![vars](assets/images/vars.png)
+![vars](/assets/images/vars.png)
 
 Next I needed to actually change the rotations.
 
-![rots](assets/images/rot.png)
+![rots](/assets/images/rot.png)
 
 Finally we needed to actually move the object based on time and use lerp to have the object move smoothly. Below is how I handled the gameobject movement entirely.
 
-![movementCodeSnip](assets/images/movementCodeSnip.png)
+![movementCodeSnip](/assets/images/movementCodeSnip.png)
 
 All we have to continue to add later is a patrolling option if desired.
 
@@ -248,7 +248,7 @@ Previously stated I mentioned utilizing the OnCollisionEnter function on a bulle
 
 Below you can see what all of this looks like combined together!
 
-![shooting](assets/images/shooting.gif)
+![shooting](/assets/images/shooting.gif)
 
 ---
 
@@ -267,18 +267,18 @@ For the most part I followed the guide here: https://unity3d.com/learn/tutorials
 
 I started off using the default Unity networking implementation which consists of a Network Manager Component and a Network Manager HUD Component. They just need to be attached to an empty game object I was calling a NetworkManager, so that I would have the networking implementation separated from any of the other game systems. The Network Manager is mostly set up to start with but I had to create an offline scene and online scene. I created a lobby scene, which is the default starting screen as well as the offline scene, it holds the NetworkManager and carries it over to whichever level we are currently having the players play aka our Scene1 which was just a testing scene for networked play. Below is the NetworkManager and the Object it is attached to as seen in the Lobby Scene.
 
-![Unity](assets/images/Unity.png)
+![Unity](/assets/images/Unity.png)
 
 Using this system it made it easy to start creating a player prefab and have it implemented into the online scene. As you can see above the Network Manager provides a default function to spawn a Player Prefab. I was able to get this working and have two clients connect with their players spawning correctly.
 
 ### Learning to Walk Before You Can Run
 My next action was the get some movement on the players and see the player movement across the network on both ends. Below is the basic movement script I created which allows for the local player to move itself.
 
-![Codesnip](assets/images/codeSnip.png)
+![Codesnip](/assets/images/codeSnip.png)
 
 The only other thing after this that we had to do to see the networked movement is to add a NetworkTransform component to the player prefab. It synchronizes the GameObject’s entire transform across the network.
 
-![movement](assets/images/movement.gif)
+![movement](/assets/images/movement.gif)
 
 As you can see on the left, I’m controlling the character and on the right you can see the movement being passed across the network!
 
@@ -292,11 +292,11 @@ The main idea for the combined fireflies game came from a bunch of different ide
 
 We combined what we believed to be the best parts of all three of these games and came up with the game we’re currently calling Footsteps. This is a game where you are wandering around in the dark with a light aura around you that increases with the more light resource that you collect. You can also place these resources in lanterns around the map to illuminate the area. Now there are these footsteps that you can visually see to represent if a player were hearing them around the map. These can either be friendly or dangerous creatures. When they either encounter a lantern or your character with the light aura turned on they freeze and if they are enemy creatures they will attack you. The main goal is to freeze them and back away quick enough that they do not attack you. While this is going on you’re trying to collect as many light resources and meet good creatures so that you can save the forest before the angry villagers destroy the haunted and scary woods.
 
-![Footsteps](assets/images/footsteps.png)
+![Footsteps](/assets/images/footsteps.png)
 
 I started out this prototype by trying to get the lighting around the character working in a way that would visually show the light enough for the player to understand the area that was being lit which can be seen below as a full sphere that is lit with lighting on the inside. Now the glowing particle effects that you see around the scene are to represent these footsteps that the players can see. These are the footsteps of the enemy creatures and the good creatures. They will not be revealed until your light radius intersects with them. At this point it’s about backing away from the evil creatures to avoid them or collecting the good creatures since they are your light resource.
 
-![Lighting](assets/images/Lighting.png)
+![Lighting](/assets/images/Lighting.png)
 
 Thus we started the QA testing where each person went and tested two of the games each to try and get as much feedback as possible. I tested the two games I was assigned with my roommates and brought the feedback to our end of the week meeting. When met at the end of the week. We had to make a decision about which game we wanted to try and continue forward with. We sat and discussed the pros and cons of each game we had prototyped. And finally decided we were going to go with…. *Drum roll* Footsteps!
 
@@ -308,15 +308,15 @@ After presenting these different ideas we took all of the feedback we had obtain
 
 The idea behind the fire tornado game was to use the sticks of a controller as the main controls. One stick would control the speed/distance the tornado would spin and the other would control the direction that the player was moving in. Shown better below.
 
-![Controls](assets/images/controls.png)
+![Controls](/assets/images/controls.png)
 
 The objective was the use different fans to platform the level and unfreeze objects or melt different objects. I started by getting the prototype to function correctly off the stick movement for the amplitude.
 
-![FireTornado](assets/images/FireTornado.gif)
+![FireTornado](/assets/images/FireTornado.gif)
 
 After working for a week we sat down and had a long meeting discussing the pros and cons of each game, showing off the different prototypes we had worked on, and what we saw in the future for each of these games. It took us ages with discussion about why we liked each idea but eventually we cut the list down to four different games.
 
-![Whiteboard Image2](assets/images/board2.jpg)
+![Whiteboard Image2](/assets/images/board2.jpg)
 
 This was also where we came up with our teams name, Turtle Collective!
 
@@ -330,6 +330,6 @@ Finally the summer is over and my final year of school is here. It’s time to s
 
 We started off the semester by having to come up with as many ideas for different games and mechanics as we could, that we thought were innovative and unique. We came up with over 20 different ideas to start with, but we needed to narrow it down so that we would be able to present the different ideas to our classmates and professor. We cut our ideas down to 9 different types of games and 5 different types of mechanics we liked.
 
-![Whiteboard Image](assets/images/board1.jpg)
+![Whiteboard Image](/assets/images/board1.jpg)
 
 We took these ideas to class and presented them in hopes to get as much feedback as possible. Using this feedback we ventured off into week two to decide upon cutting our games down to a minimum of 3 to be able to prototype and present to the class.

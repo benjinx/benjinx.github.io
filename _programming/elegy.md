@@ -14,4 +14,4 @@ Elegy, Inc was a project I had an opportunity to work on. Below I’ve included 
 
 >[Game Download](https://drive.google.com/file/d/1JTgCI7jCGx_wqlOIxTuX28IcqjCtANIU/view?usp=sharing)
 
-![Elegy, Inc Image](assets/images/Elegy-Poster.png)
+![Elegy, Inc Image](/assets/images/Elegy-Poster.png)
