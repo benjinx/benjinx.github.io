@@ -83,7 +83,7 @@ This week we discussed needing an arrow for direction on both the attacker and d
 ## Extra! Extra! Read All About It!
 (Okay so besides the fact that I attempted to write this section in code, then connected to to the actual code. It might help if I explain what’s going on here just a little bit). We start by creating two Dictionaries. One that contains the text for each trap, and one that contains the names in bold of the traps. Next we head on down to void TrapInfo() where we grab the current trap being placed or activated and we then check to see if it’s null (aka no trap is selected) and we then strip the name from the game object and use a Split function to remove the word “(Clone)” from the Instantiated prefab. We then change the names to bold by checking if the trap exists in the dictionary. Following this we set the trap text equal to the associated trap and add a cost to it via getting the trap cost.
 
-```
+```cpp
 void trapInformationPanel()
 {
     if (informationAboutTraps == isNeeded)
@@ -224,7 +224,7 @@ Again I was still following most of the guide from: https://unity3d.com/learn/tu
 ### Colors Galore
 Identifying the local player can be a very handy tool to handle different actions on each client. I did a basic test of this by just implementing a simple material color change based on a function call premade in NetworkBehavior (which is what any scripts inherit from instead of monobehavior in networking).
 
-```
+```cpp
 public override void OnStartLocalPlayer()
 {
     GetComponent().material.color = Color.blue;
@@ -236,7 +236,7 @@ As you can see it isn’t rather difficult to handle local player identification
 ### An Apple a Day Keeps the Doctor Away
 Implementing the health system was actually a lot easier said then done. First was creating a health script for the player that held a max health, current health, and had a function to adjust the health called TakeDamage. I then accessed the OnCollisionEnter for a bullet script (Which will be explained more in the next section) and was able to call the TakeDamage function from the health script on the player and modify the health as needed. The only other changes we needed to make to have it networked was the make the current health a [SyncVar] and add a simple if statement (below) to the TakeDamage function that would allow the server to handle the damage.
 
-```
+```cpp
 if (!isServer)
 {
     return;
