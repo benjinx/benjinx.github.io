@@ -15,6 +15,8 @@ I tend to enjoy Graphics Programming and Game Architecture. I've had the opportu
 
 Other technical skills: C++, C#, OpenGL/GLSL, Git, CMake, Unity3D, Unreal Engine 4 and Visual Studios.
 
+---
+
 # Projects
 
 ## Temporality
