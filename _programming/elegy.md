@@ -2,7 +2,7 @@
 layout: post
 title: Elegy, Inc
 excerpt: Elegy, Inc
-date: -u "+%Y-%m-%d %H:%M:%S +0000"
+date -u "+%Y-%m-%d %H:%M:%S +0000"
 tags: c# unity
 ---
 
