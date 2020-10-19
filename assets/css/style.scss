@@ -1,0 +1,46 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+html, body {
+    background-color: #222;
+    color: #AAA;
+    min-width: fit-content;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #CCC;
+}
+
+code, pre {
+    color: #EEE;
+}
+
+p code {
+    color: #FF8D00;
+}
+
+figure,
+.highlight {
+    background-color: transparent;
+}
+
+strong, th {
+    color: inherit;
+}
+
+pre {
+    border-color: #111;
+    tab-size: 4;
+}
+
+a {
+    color: #4ca4e2;
+}
+
+a:hover, a:focus {
+    font-weight: inherit;
+    color: #FF8D00;
+}
+
