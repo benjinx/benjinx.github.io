@@ -7,11 +7,7 @@ layout: default
 
 # Benjinx's Blog
 
-Hello!
-
-I'm Benji & Welcome to my portfolio! I originally started as a kid who loved to play video games but I had this want to understand how they were created so I started by creating custom maps in Warcraft 3. This eventually took me to where I am today where I'm currently attending Champlain College majoring in Game Programming.
-
-I tend to enjoy Graphics Programming and Game Architecture. I've had the opportunity to take multiple classes on each of these topics and have fallen in love with them. I am now continuing to learn more and more about them each day.
+Graphics Programming, Engine Development, Blender, and Debugging. The four horsemen of the apocalypse that I call my life.
 
 Other technical skills: C++, C#, OpenGL/GLSL, Git, CMake, Unity3D, Unreal Engine 4 and Visual Studios.
 
@@ -19,12 +15,12 @@ Other technical skills: C++, C#, OpenGL/GLSL, Git, CMake, Unity3D, Unreal Engine
 
 # Projects
 
-## Temporality
-[More Info](https://github.com/benjinx/Temporality)
+## Toon
+[More Info](https://github.com/benjinx/Toon)
 
-![Temporality Image](assets/images/Temporality.png)
+![Toon Image](assets/images/Temporality.png)
 
-Everyone who enjoys engine programming should try their hand at creating a game engine from scratch and using it to create a game. This is the beginning of mine, Temporality. A C++ Game Engine, using OpenGL/GLSL designed to easily create AI, Gameplay, Graphics, Physics, and Networking demos.
+A modular C++ Game Engine, designed to easily create Graphics demos. (Later support for Physics, Networking, and more)
 
 ---
 
