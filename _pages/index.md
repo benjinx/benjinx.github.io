@@ -5,9 +5,9 @@
 layout: default
 ---
 
-# Benjinx's Blog
+# Benjamin Campbell's Blog
 
-Graphics Programming, Engine Development, Blender, and Debugging. The four horsemen of the apocalypse that I call my life.
+Unity, Engine Development, Graphics Programming, and Debugging. The four horsemen of the apocalypse that I call my life.
 
 Other technical skills: C++, C#, Unity3D, OpenGL/GLSL, Git, and CMake.
 
